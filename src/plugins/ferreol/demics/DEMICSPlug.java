@@ -220,7 +220,7 @@ public abstract class DEMICSPlug extends EzPlug  implements Block,EzStoppable{
             @Override
             public void variableChanged(EzVar<Integer> source, Integer newValue) {
                 channelRestartEV.setValue(newValue);
-                dataChanged();
+                //dataChanged();
                 modelArray = null;
             }
         });
